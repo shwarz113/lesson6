@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+div, input {
+  border-radius: 10px;
+}
+body {
+  height: 670px;
+  background: url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+  word-break: break-all;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.open {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.open-btn {
+  display: inline-block;
+  margin: 40px;
+  width: 130px;
+  height: 130px;
+  background: #FEDC00;
+  cursor: pointer;
+  border-radius: 50%;
+  font-family: 'Open Sans', sans-serif;
+
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+
+}
+.main-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  width: 550px;
+  min-height: 400px;
+  padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.main-info .name,
+.main-info .name-value,
+.main-info .budget,
+.main-info .budget-value,
+.main-info .goods,
+.main-info .goods-value,
+.main-info .items,
+.main-info .items-value,
+.main-info .employers,
+.main-info .employers-value,
+.main-info .discount,
+.main-info .discount-value,
+.main-info .isopen,
+.main-info .isopen-value {
+  width: 48%;
+  margin-top: 10px;
+  min-height: 40px;
+  padding: 10px;
+ 
+}
+.main-info .isopen-value,
+.main-info .discount-value {
+  background-color: red;
+}
+.main-functions {
+  width: 550px;
+  min-height: 500px;
+  padding: 20px;
+   background-color: rgba(255, 255, 255, 0.9);
+}
+.main-functions .choose-goods,
+.main-functions .choose-items,
+.main-functions .time,
+.main-functions .count-budget,
+.main-functions .hire-employers {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+.main-functions .goods-item {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 49%;
+  height: 25px;
+}
+.main-functions .goods-item-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.main-functions .choose-item,
+.main-functions .time-value,
+.main-functions .count-budget-value {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 70%;
+  height: 25px;
+}
+.main-functions .time-value {
+  width: 30%;
+}
+.main-functions .count-budget-value {
+  width: 30%;
+  display: inline-block;
+  margin-left: 25%;
+}
+.main-functions .hire-employers-item {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 49%;
+  height: 25px;
+}
+.main-functions .hire-employers-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
